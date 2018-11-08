@@ -40,7 +40,7 @@ $('.js-61').attr('src', (dpi>1) ? 'images/01b69c58a3eff4a801219c7729502a.jpg-128
 $('.js-62').attr('src', (dpi>1) ? 'images/yun-meng-400.jpg' : 'images/yun-meng-200.jpg');
 $('.js-63').attr('src', 'images/rectangle-630.png');}else{$('.js-29').attr('src', (dpi>1) ? 'images/rectangle-2-214-1.png' : 'images/rectangle-2-107-1.png');
 $('.js-30').attr('src', (dpi>1) ? 'images/group-68.png' : 'images/group-34.png');
-$('.js-31').attr('src', (dpi>1) ? 'images/2-40.png' : 'images/2-20.png');
+$('.js-31').attr('src', (dpi>1) ? 'images/2-112.png' : 'images/2-56.png');
 $('.js-32').attr('src', (dpi>1) ? 'images/3-32.png' : 'images/3-16.png');
 $('.js-33').attr('src', (dpi>1) ? 'images/4-38.png' : 'images/4-19.png');
 $('.js-34').attr('src', (dpi>1) ? 'images/wechatimg588-134.jpeg' : 'images/wechatimg588-67.jpeg');
