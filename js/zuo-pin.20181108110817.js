@@ -1,0 +1,73 @@
+(function(d){var h=[];d.loadImages=function(a,e){"string"==typeof a&&(a=[a]);for(var f=a.length,g=0,b=0;b<f;b++){var c=document.createElement("img");c.onload=function(){g++;g==f&&d.isFunction(e)&&e()};c.src=a[b];h.push(c)}}})(window.jQuery);
+$.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof attr !== typeof undefined && attr !== false; };
+
+var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=960){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
+
+$(document).ready(function() {
+r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=960){$('.js-31').attr('src', (dpi>1) ? 'images/rectangle-2-640.png' : 'images/rectangle-2-320.png');
+$('.js-32').attr('src', (dpi>1) ? 'images/group-202.png' : 'images/group-101.png');
+$('.js-33').attr('src', (dpi>1) ? 'images/2-120.png' : 'images/2-60.png');
+$('.js-34').attr('src', (dpi>1) ? 'images/3-92.png' : 'images/3-46.png');
+$('.js-35').attr('src', (dpi>1) ? 'images/4-114.png' : 'images/4-57.png');
+$('.js-36').attr('src', (dpi>1) ? 'images/wechatimg588-400.jpeg' : 'images/wechatimg588-200.jpeg');
+$('.js-37').attr('src', (dpi>1) ? 'images/wechatimg589-400.jpeg' : 'images/wechatimg589-200.jpeg');
+$('.js-38').attr('src', (dpi>1) ? 'images/wechatimg590-400.jpeg' : 'images/wechatimg590-200.jpeg');
+$('.js-39').attr('src', (dpi>1) ? 'images/wechatimg593-400.jpeg' : 'images/wechatimg593-200.jpeg');
+$('.js-40').attr('src', (dpi>1) ? 'images/wechatimg592-400.jpeg' : 'images/wechatimg592-200.jpeg');
+$('.js-41').attr('src', (dpi>1) ? 'images/wechatimg591-400.jpeg' : 'images/wechatimg591-200.jpeg');
+$('.js-42').attr('src', (dpi>1) ? 'images/yun-meng-400.jpg' : 'images/yun-meng-200.jpg');
+$('.js-43').attr('src', (dpi>1) ? 'images/98327c5a1433815b6f89b58652c97e682909319f50b13-kgerem_fw658-400.jpeg' : 'images/98327c5a1433815b6f89b58652c97e682909319f50b13-kgerem_fw658-200.jpeg');
+$('.js-44').attr('src', (dpi>1) ? 'images/017cf162fa6662203c6f6a24f756a0cd0c2daf2f4e42f-jdbffk_fw658-400.jpeg' : 'images/017cf162fa6662203c6f6a24f756a0cd0c2daf2f4e42f-jdbffk_fw658-200.jpeg');
+$('.js-45').attr('src', (dpi>1) ? 'images/01767b5ac6ed74a8012062e342d0ab.jpg-1280w_1l_2o_100sh-fu-ben-400.jpg' : 'images/01767b5ac6ed74a8012062e342d0ab.jpg-1280w_1l_2o_100sh-fu-ben-200.jpg');
+$('.js-46').attr('src', (dpi>1) ? 'images/wechatimg574-400.jpg' : 'images/wechatimg574-200.jpg');
+$('.js-47').attr('src', (dpi>1) ? 'images/wechatimg584-400.jpeg' : 'images/wechatimg584-200.jpeg');
+$('.js-48').attr('src', (dpi>1) ? 'images/wechatimg594-400.jpg' : 'images/wechatimg594-200.jpg');
+$('.js-49').attr('src', 'images/rectangle-630.png');}else{$('.js-31').attr('src', 'images/rectangle-2-161-2.png');
+$('.js-32').attr('src', (dpi>1) ? 'images/group-192.png' : 'images/group-96.png');
+$('.js-33').attr('src', (dpi>1) ? 'images/2-168.png' : 'images/2-84.png');
+$('.js-34').attr('src', (dpi>1) ? 'images/3-126.png' : 'images/3-63.png');
+$('.js-35').attr('src', 'images/4-84.png');
+$('.js-36').attr('src', (dpi>1) ? 'images/wechatimg588-344.jpeg' : 'images/wechatimg588-172.jpeg');
+$('.js-37').attr('src', (dpi>1) ? 'images/wechatimg589-336.jpeg' : 'images/wechatimg589-168.jpeg');
+$('.js-38').attr('src', (dpi>1) ? 'images/wechatimg590-352.jpeg' : 'images/wechatimg590-176.jpeg');
+$('.js-39').attr('src', (dpi>1) ? 'images/wechatimg593-352.jpeg' : 'images/wechatimg593-176.jpeg');
+$('.js-40').attr('src', (dpi>1) ? 'images/wechatimg592-340.jpeg' : 'images/wechatimg592-170.jpeg');
+$('.js-41').attr('src', (dpi>1) ? 'images/wechatimg591-340.jpeg' : 'images/wechatimg591-170.jpeg');
+$('.js-42').attr('src', (dpi>1) ? 'images/yun-meng-320-1.jpg' : 'images/yun-meng-160-1.jpg');
+$('.js-43').attr('src', (dpi>1) ? 'images/98327c5a1433815b6f89b58652c97e682909319f50b13-kgerem_fw658-348.jpeg' : 'images/98327c5a1433815b6f89b58652c97e682909319f50b13-kgerem_fw658-174.jpeg');
+$('.js-44').attr('src', (dpi>1) ? 'images/017cf162fa6662203c6f6a24f756a0cd0c2daf2f4e42f-jdbffk_fw658-330.jpeg' : 'images/017cf162fa6662203c6f6a24f756a0cd0c2daf2f4e42f-jdbffk_fw658-165.jpeg');
+$('.js-45').attr('src', (dpi>1) ? 'images/01767b5ac6ed74a8012062e342d0ab.jpg-1280w_1l_2o_100sh-fu-ben-330.jpg' : 'images/01767b5ac6ed74a8012062e342d0ab.jpg-1280w_1l_2o_100sh-fu-ben-165.jpg');
+$('.js-46').attr('src', (dpi>1) ? 'images/wechatimg574-348.jpg' : 'images/wechatimg574-174.jpg');
+$('.js-47').attr('src', (dpi>1) ? 'images/wechatimg584-348.jpeg' : 'images/wechatimg584-174.jpeg');
+$('.js-48').attr('src', (dpi>1) ? 'images/wechatimg594-326.jpg' : 'images/wechatimg594-163.jpg');
+$('.js-49').attr('src', 'images/rectangle-315-3.png');}}};
+if(!window.HTMLPictureElement){$(window).resize(r);r();}
+(function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
+$('.js-69').mouseenter(function() { $.loadImages('images/wechatimg588-1394.jpeg', function() { }) });
+$('.js-69').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-69-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg588-1394.jpeg'; } } });
+$('.js-70').mouseenter(function() { $.loadImages('images/wechatimg589-1242.jpeg', function() { }) });
+$('.js-70').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-70-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg589-1242.jpeg'; } } });
+$('.js-71').mouseenter(function() { $.loadImages('images/wechatimg590-914.jpeg', function() { }) });
+$('.js-71').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-71-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg590-914.jpeg'; } } });
+$('.js-72').mouseenter(function() { $.loadImages('images/wechatimg593-3456.jpeg', function() { }) });
+$('.js-72').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-72-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg593-3456.jpeg'; } } });
+$('.js-73').mouseenter(function() { $.loadImages('images/wechatimg592-1278.jpeg', function() { }) });
+$('.js-73').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-73-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg592-1278.jpeg'; } } });
+$('.js-74').mouseenter(function() { $.loadImages('images/wechatimg591-1440.jpeg', function() { }) });
+$('.js-74').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-74-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg591-1440.jpeg'; } } });
+$('.js-75').mouseenter(function() { $.loadImages('images/yun-meng-1000.jpg', function() { }) });
+$('.js-75').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-75-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/yun-meng-1000.jpg'; } } });
+$('.js-76').mouseenter(function() { $.loadImages('images/98327c5a1433815b6f89b58652c97e682909319f50b13-kgerem_fw658-658.jpeg', function() { }) });
+$('.js-76').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-76-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/98327c5a1433815b6f89b58652c97e682909319f50b13-kgerem_fw658-658.jpeg'; } } });
+$('.js-77').mouseenter(function() { $.loadImages('images/017cf162fa6662203c6f6a24f756a0cd0c2daf2f4e42f-jdbffk_fw658-658.jpeg', function() { }) });
+$('.js-77').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-77-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/017cf162fa6662203c6f6a24f756a0cd0c2daf2f4e42f-jdbffk_fw658-658.jpeg'; } } });
+$('.js-78').mouseenter(function() { $.loadImages('images/01767b5ac6ed74a8012062e342d0ab.jpg-1280w_1l_2o_100sh-fu-ben-5334.jpg', function() { }) });
+$('.js-78').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-78-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/01767b5ac6ed74a8012062e342d0ab.jpg-1280w_1l_2o_100sh-fu-ben-5334.jpg'; } } });
+$('.js-79').mouseenter(function() { $.loadImages('images/wechatimg574-800.jpg', function() { }) });
+$('.js-79').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-79-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg574-800.jpg'; } } });
+$('.js-80').mouseenter(function() { $.loadImages('images/wechatimg584-736.jpeg', function() { }) });
+$('.js-80').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-80-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg584-736.jpeg'; } } });
+$('.js-81').mouseenter(function() { $.loadImages('images/wechatimg594-564.jpg', function() { }) });
+$('.js-81').magnificPopup({ type: 'image', closeOnContentClick: true, closeBtnInside: false, mainClass: 'mfp-fade js-81-lightbox mfp-no-margins mfp-with-zoom', image: { verticalFit: true }, zoom: { enabled: true, duration: 300 }, callbacks: { elementParse: function(item) { item.src = 'images/wechatimg594-564.jpg'; } } });
+
+});
