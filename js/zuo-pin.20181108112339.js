@@ -4,11 +4,11 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=480){cw++;}if(w>=960){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
 
 $(document).ready(function() {
-r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=960){$('.js-46').attr('src', (dpi>1) ? 'images/rectangle-2-640-2.png' : 'images/rectangle-2-320-2.png');
+r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=960){$('.js-46').attr('src', (dpi>1) ? 'images/rectangle-2-640.png' : 'images/rectangle-2-320.png');
 $('.js-47').attr('src', (dpi>1) ? 'images/group-202.png' : 'images/group-101.png');
-$('.js-48').attr('src', (dpi>1) ? 'images/2-120-2.png' : 'images/2-60-2.png');
-$('.js-49').attr('src', (dpi>1) ? 'images/3-92-2.png' : 'images/3-46-2.png');
-$('.js-50').attr('src', (dpi>1) ? 'images/4-114-2.png' : 'images/4-57-2.png');
+$('.js-48').attr('src', (dpi>1) ? 'images/2-120.png' : 'images/2-60.png');
+$('.js-49').attr('src', (dpi>1) ? 'images/3-92.png' : 'images/3-46.png');
+$('.js-50').attr('src', (dpi>1) ? 'images/4-114.png' : 'images/4-57.png');
 $('.js-51').attr('src', (dpi>1) ? 'images/wechatimg588-400.jpeg' : 'images/wechatimg588-200.jpeg');
 $('.js-52').attr('src', (dpi>1) ? 'images/wechatimg589-400.jpeg' : 'images/wechatimg589-200.jpeg');
 $('.js-53').attr('src', (dpi>1) ? 'images/wechatimg590-400.jpeg' : 'images/wechatimg590-200.jpeg');
@@ -22,7 +22,7 @@ $('.js-60').attr('src', (dpi>1) ? 'images/01767b5ac6ed74a8012062e342d0ab.jpg-128
 $('.js-61').attr('src', (dpi>1) ? 'images/wechatimg574-400.jpg' : 'images/wechatimg574-200.jpg');
 $('.js-62').attr('src', (dpi>1) ? 'images/wechatimg584-400.jpeg' : 'images/wechatimg584-200.jpeg');
 $('.js-63').attr('src', (dpi>1) ? 'images/wechatimg594-400.jpg' : 'images/wechatimg594-200.jpg');
-$('.js-64').attr('src', 'images/rectangle-630-2.png');}else if($(window).width()>=480){$('.js-46').attr('src', 'images/rectangle-2-161-2.png');
+$('.js-64').attr('src', 'images/rectangle-630.png');}else if($(window).width()>=480){$('.js-46').attr('src', 'images/rectangle-2-161-2.png');
 $('.js-47').attr('src', (dpi>1) ? 'images/group-192.png' : 'images/group-96.png');
 $('.js-48').attr('src', (dpi>1) ? 'images/2-168.png' : 'images/2-84.png');
 $('.js-49').attr('src', (dpi>1) ? 'images/3-126.png' : 'images/3-63.png');

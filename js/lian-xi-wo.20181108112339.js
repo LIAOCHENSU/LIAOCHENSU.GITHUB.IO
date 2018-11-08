@@ -4,7 +4,7 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=480){cw++;}if(w>=960){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
 
 $(document).ready(function() {
-r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=960){$('.js-116').attr('src', (dpi>1) ? 'images/rectangle-2-640-1.png' : 'images/rectangle-2-320-2.png');
+r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=960){$('.js-116').attr('src', (dpi>1) ? 'images/rectangle-2-640-2.png' : 'images/rectangle-2-320-5.png');
 $('.js-117').attr('src', (dpi>1) ? 'images/lian-xi-wo-130.png' : 'images/lian-xi-wo-65.png');
 $('.js-118').attr('src', (dpi>1) ? 'images/ru-guo-ni-xu-yao-wo-ke-yi-tong-guo-yi-xia-ge-zhong-fang-shi-le-jie-wo-558.png' : 'images/ru-guo-ni-xu-yao-wo-ke-yi-tong-guo-yi-xia-ge-zhong-fang-shi-le-jie-wo-279.png');
 $('.js-119').attr('src', (dpi>1) ? 'images/g2oup-332.png' : 'images/g2oup-166.png');
@@ -15,7 +15,7 @@ $('.js-123').attr('src', (dpi>1) ? 'images/2-120.png' : 'images/2-60.png');
 $('.js-124').attr('src', (dpi>1) ? 'images/3-92.png' : 'images/3-46.png');
 $('.js-125').attr('src', (dpi>1) ? 'images/4-114.png' : 'images/4-57.png');
 $('.js-126').attr('src', (dpi>1) ? 'images/work-hark-will-save-1372.png' : 'images/work-hark-will-save-686.png');
-$('.js-127').attr('src', (dpi>1) ? 'images/rectangle-1260.png' : 'images/rectangle-630-1.png');}else if($(window).width()>=480){$('.js-116').attr('src', (dpi>1) ? 'images/rectangle-2-320-3.png' : 'images/rectangle-2-160-1.png');
+$('.js-127').attr('src', (dpi>1) ? 'images/rectangle-1260-2.png' : 'images/rectangle-630-6.png');}else if($(window).width()>=480){$('.js-116').attr('src', (dpi>1) ? 'images/rectangle-2-320-4.png' : 'images/rectangle-2-160-2.png');
 $('.js-117').attr('src', (dpi>1) ? 'images/lian-xi-wo-130.png' : 'images/lian-xi-wo-65.png');
 $('.js-118').attr('src', (dpi>1) ? 'images/ru-guo-ni-xu-yao-wo-ke-yi-tong-guo-yi-xia-ge-zhong-fang-shi-le-jie-wo-584.png' : 'images/ru-guo-ni-xu-yao-wo-ke-yi-tong-guo-yi-xia-ge-zhong-fang-shi-le-jie-wo-292.png');
 $('.js-119').attr('src', (dpi>1) ? 'images/g2oup-340.png' : 'images/g2oup-170.png');
@@ -23,10 +23,10 @@ $('.js-120').attr('src', (dpi>1) ? 'images/weixin-102.png' : 'images/weixin-51.p
 $('.js-121').attr('src', (dpi>1) ? 'images/qq-78.png' : 'images/qq-39.png');
 $('.js-122').attr('src', 'images/weibo-55.png');
 $('.js-123').attr('src', 'images/2-90.png');
-$('.js-124').attr('src', 'images/3-75.png');
+$('.js-124').attr('src', 'images/3-76-1.png');
 $('.js-125').attr('src', 'images/4-90.png');
 $('.js-126').attr('src', (dpi>1) ? 'images/work-hark-will-save-688.png' : 'images/work-hark-will-save-344.png');
-$('.js-127').attr('src', (dpi>1) ? 'images/rectangle-630-5.png' : 'images/rectangle-315-4.png');}else{$('.js-116').attr('src', (dpi>1) ? 'images/rectangle-2-214-4.png' : 'images/rectangle-2-107-4.png');
+$('.js-127').attr('src', (dpi>1) ? 'images/rectangle-624.png' : 'images/rectangle-312.png');}else{$('.js-116').attr('src', (dpi>1) ? 'images/rectangle-2-214-4.png' : 'images/rectangle-2-107-4.png');
 $('.js-117').attr('src', (dpi>1) ? 'images/lian-xi-wo-86.png' : 'images/lian-xi-wo-43.png');
 $('.js-118').attr('src', (dpi>1) ? 'images/ru-guo-ni-xu-yao-wo-ke-yi-tong-guo-yi-xia-ge-zhong-fang-shi-le-jie-wo-388.png' : 'images/ru-guo-ni-xu-yao-wo-ke-yi-tong-guo-yi-xia-ge-zhong-fang-shi-le-jie-wo-194.png');
 $('.js-119').attr('src', (dpi>1) ? 'images/g2oup-226.png' : 'images/g2oup-113.png');
